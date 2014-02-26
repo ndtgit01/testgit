@@ -1,10 +1,10 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class MyLog : MonoBehaviour
 {
 	private static bool IN_DEBUG = true;
-  
+  	// Test
 	public static void Log (string message)
 	{
 		if (IN_DEBUG) {
