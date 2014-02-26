@@ -3,8 +3,10 @@ using System.Collections;
 
 public class MyLog : MonoBehaviour
 {
+// Test feature 1
+
 	private static bool IN_DEBUG = true;
-  	// Test
+  	// Test feature x
 	public static void Log (string message)
 	{
 		if (IN_DEBUG) {
